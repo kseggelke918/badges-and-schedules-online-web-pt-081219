@@ -35,6 +35,10 @@ end
 #end
 
 def printer (attendees)
-  puts batch_badge_creator(attendees)[0]
-  puts assign_rooms(attendees)
+  i = 0 
+  attendees.each do 
+    puts batch_badge_creator(attendees)[i]
+    puts assign_rooms(attendees)[i]
+    i += 1 
+  end 
 end 
