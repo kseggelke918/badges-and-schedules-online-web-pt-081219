@@ -20,19 +20,6 @@ def assign_rooms(speakers)
   return new_array
 end 
 
-#def printer(attendees)
-#  i = 0 
-#  attendees.each do |badge|  
-#    puts batch_badge_creator(attendees)[i]
- #   i += 1 
-#  end 
-  
-#  attendees.each do |room|
-#    puts assign_rooms(room)[i]
-#    i += 1 
-
-#    end 
-#end
 
 def printer (attendees)
   i = 0 
